@@ -50,12 +50,15 @@ The MATLAB script performs the following steps:
 
 AlexNet achieves an impressive accuracy of 96.0% in correctly classifying the test images, accurately identifying the test image with the correct label.
 
-![Confusion Matrix](confusion_matrix.png)
+![AlexNet Confusion Matrix](AlexNet_Confusion_Chart_CWT.png)
+![AlexNet Test](AlexNet_Test_CWT.png)
 
 ### Short Time Fourier Transformation (STFT)
 
 AlexNet and SqueezeNet achieve an impressive accuracy of 98.7% in correctly classifying the test images, accurately identifying the test image with the correct label.
 
-![Confusion Matrix](confusion_matrix.png)
+![AlexNet Confusion Matrix](AlexNet_STFT_Confusion_Matrix.png)
+![AlexNet Test](AlexNet_Test_STFT.png)
+
 
 
