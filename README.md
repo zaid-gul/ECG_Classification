@@ -2,6 +2,10 @@
 
 This project aims to classify human electrocardiogram (ECG) signals into three categories: persons with cardiac arrhythmia (ARR), persons with congestive heart failure (CHF), and persons with normal sinus rhythms (NSR). The classification will be performed using the Short Time Fourier Transformation (STFT) and the Continuous Wavelet Transform (CWT) along with deep convolutional neural networks (CNNs).
 
+## Author
+
+- [ZAID GUL](https://github.com/zaid-gul)
+
 ## Background
 
 Electrocardiogram (ECG) signals provide important information about the electrical activity of the heart. By analyzing these signals, it is possible to detect abnormalities and classify them into different categories. 
@@ -41,3 +45,17 @@ The MATLAB script performs the following steps:
 9. Display sample predictions for selected images.
 
 ## Results
+
+### Continuous Wavelet Transform (CWT)
+
+AlexNet achieves an impressive accuracy of 96.0% in correctly classifying the test images, accurately identifying the test image with the correct label.
+
+![Confusion Matrix](confusion_matrix.png)
+
+### Short Time Fourier Transformation (STFT)
+
+AlexNet and SqueezeNet achieve an impressive accuracy of 98.7% in correctly classifying the test images, accurately identifying the test image with the correct label.
+
+![Confusion Matrix](confusion_matrix.png)
+
+
